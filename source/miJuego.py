@@ -56,4 +56,5 @@ while not fin:
     comprobar_si_comido(jugador_actual, posiciones)
     mostrar_tablero(posiciones, jugadores)
     time.sleep(1)
+    # actualizamos turno
     turno = (turno + 1) % len(jugadores)
